@@ -1,0 +1,106 @@
+.expenses {
+  padding: 1rem;
+  background-color: #a4cef0;
+  margin: 2rem auto;
+  width: 50 rem;
+  max-width: 95%;
+  display: flex;
+  flex-direction: column;
+}
+
+.expense_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem;
+  margin: 0rem;
+  background-color: snow;
+  text-align: left;
+}
+
+.sub_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem;
+  margin: 0rem;
+  background-color: snow;
+  text-align: left;
+}
+
+.expense_item p {
+  font-size: 0.8rem;
+  flex: 1;
+  margin: 0 1rem;
+}
+
+.sub_item p {
+  font-size: 0.6rem;
+  flex: 1;
+  margin: 0 1rem;
+  padding-left: 0.5rem;
+}
+
+.expense_item__price {
+  font-size: 0.8rem;
+  padding: 0.5rem;
+  /* font-weight: bold; */
+}
+
+.sub_item__price {
+  font-size: 0.6rem;
+  padding: 0.5rem;
+}
+
+.expense_item__description {
+  display: flex;
+  flex-direction: column;
+  gap: 0 rem;
+  align-items: flex-end;
+  flex-flow: column-reverse;
+  justify-content: flex-start;
+  flex: 1;
+  font-size: 0.8rem;
+}
+
+/*
+@media (min-width: 580px) {
+  .expense_item__description {
+    flex-direction: row;
+    align-items: left;
+    justify-content: flex-start;
+    flex: 1;
+  }
+
+  .expense_item__description h2 {
+    font-size: 0.8rem;
+  }
+
+  .expense_item__price {
+    font-size: 0.8rem;
+    padding: 0.5rem 1.5rem;
+  }
+
+  .sub_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem;
+    margin: 0rem;
+    background-color: snow;
+    text-align: left;
+  }
+
+  .sub_item p {
+    font-size: 0.6rem;
+    flex: 1;
+    margin: 0 1rem;
+    padding-left: 0.5rem;
+  }
+
+  .sub_item__price {
+    font-size: 0.6rem;
+    padding-right: 1.5rem;
+  }
+}
+*/

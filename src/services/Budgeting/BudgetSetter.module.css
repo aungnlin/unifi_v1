@@ -1,0 +1,52 @@
+.Categories_Item {
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  margin: auto;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.Categories_description {
+  flex: 1;
+  padding-left: 1rem;
+  padding-top: 0.25rem;
+  text-align: left;
+  margin-left: 0.5rem;
+  font-size: 0.8rem;
+  justify-content: flex-start;
+}
+
+.Categories_description_Total {
+  flex: 1;
+  padding-left: 1rem;
+  padding-top: 0.25rem;
+  text-align: left;
+  margin-left: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  justify-content: flex-start;
+}
+
+.Categories_Input {
+  flex: 0.5;
+  padding: 0.25rem;
+  margin-left: 0.5rem;
+  width: 20px;
+  text-align: center;
+  height: 1rem;
+  font-size: 0.8rem;
+  justify-content: flex-start;
+}
+
+.Categories_Input_Total {
+  flex: 0.5;
+  padding: 0.25rem;
+  margin-left: 0.5rem;
+  width: 20px;
+  text-align: center;
+  height: 1rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  justify-content: flex-start;
+}

@@ -1,0 +1,83 @@
+/* Parent */
+.CategoriesExpenseContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* width: 20px; */
+  /* margin: 20px; */
+  /* max-width: 95%; */
+}
+
+.h3 {
+  margin: 0rem;
+  padding: 0rem;
+  color: #ff7e00;
+}
+
+.Categories_Header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30rem;
+
+  /* height: 4rem; */
+  /* max-width: 95%; */
+  /* border-bottom: 1px solid gray; */
+}
+
+.Categories_Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 30rem;
+
+  /* height: 4rem; */
+  /* max-width: 95%; */
+  /* border-bottom: 1px solid gray; */
+}
+
+.Categories_Item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: left;
+
+  /* width: 30rem; */
+
+  /* height: 4rem; */
+  /* max-width: 95%; */
+  /* border-bottom: 1px solid gray; */
+}
+
+.Categories_description {
+  flex: 0.5;
+  padding: 0.25rem;
+  /* width: 250px; */
+  text-align: left;
+  height: 1rem;
+  justify-content: flex-start;
+}
+
+.Categories_delta {
+  flex: 0.15;
+  justify-content: flex-end;
+  text-align: right;
+  padding: 0.25rem;
+}
+
+.Categories_delta {
+  flex: 0.15;
+  justify-content: flex-end;
+  text-align: right;
+  padding: 0.25rem;
+}
+
+/* 
+.Categories_price {
+  flex: 0.15;
+  padding: 0.25rem;
+  justify-content: flex-end;
+  text-align: right;
+  align-self: right;
+} */

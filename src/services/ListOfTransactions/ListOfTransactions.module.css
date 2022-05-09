@@ -1,0 +1,16 @@
+.ListOfTransactions {
+  /* display: flex; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+
+.h3 {
+  margin: 0rem;
+  padding: 0rem;
+  color: #ff7e00;
+  margin: 0.5rem;
+  font-size: 1rem;
+}

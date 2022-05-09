@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+  /* flex-basis: 90%; */
+  /* max-width: 50rem; */
+  /* align-items: center; */
+  justify-content: flex-end;
+  background-color: #e5e5e5;
+}
+
+.containerItem {
+  flex: 1;
+  border: 1px #ccc solid;
+  width: 40rem;
+  /* align-content: center; */
+}

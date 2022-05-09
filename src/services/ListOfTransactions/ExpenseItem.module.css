@@ -1,0 +1,80 @@
+/* Parent */
+.ExpenseContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 20rem;
+  height: 4rem;
+  /* max-width: 95%; */
+  /* border-bottom: 1px solid gray; */
+}
+
+/* Description */
+.expense_date {
+  display: flex;
+  flex: 0.2;
+  flex-direction: column;
+  width: 1rem;
+  height: 3rem;
+  margin: 0.25rem;
+  border: 1px solid #ececec;
+  background-color: #4db6ac;
+  color: white;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.expense_date__month {
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.expense_date__year {
+  font-size: 0.75rem;
+}
+
+.expense_date__day {
+  font-size: 0.75em;
+  font-weight: bold;
+}
+
+/* Description */
+.ExpenseItem_description {
+  flex: 0.6;
+  padding: 0.5rem;
+  text-align: left;
+  height: 1rem;
+
+  justify-content: flex-start;
+  /* align-content: left; */
+  /* background-color: aqua; */
+  /* border: solid brown 3px; */
+}
+
+.ExpenseItem_categories {
+  flex: 0.6;
+  /* padding: 0.5rem; */
+  text-align: left;
+  height: 1rem;
+  font-size: 10px;
+  color: gray;
+  margin-top: 0.25rem;
+
+  /* align-content: left; */
+  /* background-color: aqua; */
+  /* border: solid brown 3px; */
+}
+
+.ExpenseItem_price {
+  flex: 0.2;
+  justify-content: flex-end;
+  text-align: right;
+  height: 1rem;
+
+  padding: 0.5rem;
+  margin-left: 2rem;
+  align-self: right;
+  /* background-color: brown; */
+  /* border: solid brown 3px; */
+}

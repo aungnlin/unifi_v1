@@ -1,0 +1,17 @@
+.card {
+  display: block;
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  width: 340px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+
+  background-color: snow;
+  /* max-width: 40rem; */
+  /* align-self: center; */
+  /* justify-content: center; */
+}

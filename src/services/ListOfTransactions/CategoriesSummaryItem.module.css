@@ -1,0 +1,84 @@
+/* Parent */
+
+.Categories_Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  /* background-color: red; */
+  min-width: 340px;
+
+  /* height: 4rem; */
+  /* max-width: 95%; */
+  /* border-bottom: 1px solid gray; */
+}
+
+/* .Categories_Item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: left;
+} */
+
+.Categories_TextPart {
+  display: flex;
+  min-width: 280px;
+  /* flex: 0.8; */
+  flex-direction: column;
+  justify-content: left;
+  /* background-color: skyblue; */
+  padding-left: 0.5rem;
+  /* font-size: 0.8rem; */
+
+  /* width: 30rem; */
+  /* margin: 0.25rem; */
+
+  /* height: 4rem; */
+  /* max-width: 95%; */
+  /* border-bottom: 1px solid gray; */
+}
+
+.Categories_description {
+  padding: 0.25rem;
+  /* width: 250px; */
+  text-align: left;
+  /* align-self: left; */
+  height: 1rem;
+  /* background-color: blueviolet; */
+  font-size: 0.8rem;
+  /* justify-content: flex-start; */
+}
+
+.Categories_TextPart2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  font-size: 0.6rem;
+  padding-left: 0.5rem;
+  /* width: 30rem; */
+  /* margin: auto; */
+
+  /* height: 4rem; */
+  /* max-width: 95%; */
+  /* border-bottom: 1px solid gray; */
+}
+
+.Categories_actualSpent {
+  flex: 1;
+  /* padding-left: 0.25rem; */
+  /* width: 250px; */
+  text-align: left;
+  height: 1rem;
+  justify-content: flex-start;
+  font-size: 0.5rem;
+  /* width: 10px; */
+  color: #808080;
+}
+
+.Categories_Budgeted {
+  flex: 1;
+  /* padding-left: 0.25rem; */
+  /* width: 250px; */
+  text-align: left;
+  height: 1rem;
+  justify-content: flex-start;
+}
