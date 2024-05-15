@@ -9,8 +9,7 @@ Instructions:
 - `npm start`  in the terminal
 -  Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-  
-### `npm start`
+Screenshots:
+<img width="371" alt="image" src="https://github.com/aungnlin/unifi_v1/assets/21234073/7fa49b52-1f8d-43fc-bf93-eda66b5871c9">
 
-Runs the app in the development mode.\
-
+<img width="364" alt="image" src="https://github.com/aungnlin/unifi_v1/assets/21234073/37ca9d95-dd41-401f-bdd2-4b1b6ee91ddd">
